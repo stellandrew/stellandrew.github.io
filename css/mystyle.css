@@ -15,6 +15,7 @@
 	width: 90vw;
 }
 .images img{
+	image-orientation: from-image;
 	display: inline-block;
 	max-height: 60vh;
 	max-width: 90vw;
@@ -29,6 +30,7 @@ img{
 }
 .footer {
 	//position: fixed;
+	width: 100vw;
 	left: 0;
 	bottom: 0;
 	width: 100%;
