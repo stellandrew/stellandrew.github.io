@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.my-img').slick({
 		autoplay: true,
-		autoplaySpeed: 3000,
+		autoplaySpeed: 2000,
 	});
 	let audioPlay = true;
 	let aud = document.getElementById("audio");
