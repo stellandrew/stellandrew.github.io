@@ -1,0 +1,28 @@
+.wide img{
+	width: 100%;
+}
+.images {
+	background-color: #FFC0CB;
+	text-align: center;
+	margin-bottom: 20%;
+}
+img{
+	text-align: center;
+}
+#header-img{
+	padding: 50px;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #FFC0CB;
+	color: white;
+	padding-top: 15px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+audio {
+	display: none;
+}
