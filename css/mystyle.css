@@ -1,31 +1,40 @@
 .wide img{
-	width: 100%;
+	width: 100vw;
+}
+#blessing p {
+	text-align: center;
+	font-family: "Comic Sans MS";
+	color: 	#F08080;
 }
 .images {
-	max-height: 50vh;
+	background-color: #FFCCCC;
+	margin: 5px;
+	border-radius: 25px;
 	text-align: center;
-	margin-bottom: 20%;
+	height: 60vh;
+	width: 90vw;
+}
+.images img{
+	display: inline-block;
+	max-height: 60vh;
+	max-width: 90vw;
 }
 .holder {
 	display: inline-block;
 	vertical-align:middle;
 	text-align:center;
-	border: 5px solid blue;
 }
 img{
 	text-align: center;
 }
-#header-img{
-	padding: 50px;
-}
 .footer {
-	position: fixed;
+	//position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #FFC0CB;
+	//background-color: #FFC0CB;
+	background-color: #FFCCCC;
 	color: white;
-	padding-top: 15px;
 	text-align: center;
 	font-family: "Times New Roman", Times, serif;
 }
