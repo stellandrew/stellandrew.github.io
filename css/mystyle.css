@@ -43,3 +43,12 @@ img{
 audio {
 	display: none;
 }
+.my-img .holder {
+	display: none;
+}
+.my-img .holder:first-child {
+	display: block;
+}
+.my-img.slick-initialized .holder {
+	display: block;
+}
